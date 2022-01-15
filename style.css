@@ -10,7 +10,7 @@ body {
 .inter {
   font-family: "Inter", sans-serif;
 }
-        /* header start here  */
+/* header start here  */
 header {
   font-family: "Poppins", sans-serif;
 }
@@ -18,32 +18,30 @@ header {
   padding: 80px 0px 100px 120px;
 } */
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 100px 80px 130px;
+}
+#nav-icon ul li {
+  float: left;
+  list-style: none;
+  padding-right: 30px;
+  text-align: right;
+}
+#nav-icon ul {
+  display: flex;
 
-
-nav{
-   display: flex;
-   justify-content: space-between;
-   padding: 80px 100px 80px 130px;
+  text-align: right;
 }
-#nav-icon ul li{
-   float: left;
-   list-style: none;padding-right: 30px;
-   text-align: right;
+#nav-icon {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
 }
-#nav-icon ul{
-   display: flex;
-  
-   text-align: right;
-}
-#nav-icon{
-   display: flex;
-   align-items: center;
-   font-size: 16px;
-   font-weight: 400;
-   cursor: pointer;
-   
-}
-#nav-icon i{
+#nav-icon i {
   padding-right: 10px;
 }
 
@@ -185,7 +183,7 @@ hr {
   color: #787885;
 }
 
-#see-more{
+#see-more {
   font-weight: bold;
   font-size: 16px;
   color: #e02c6d;
@@ -200,90 +198,84 @@ footer {
   background: #0a0826;
   color: white;
   text-align: center;
-  padding: 30px 0px  30px  0px;
+  padding: 30px 0px 30px 0px;
 }
-.footer-title{
-   font-size: 24px;
-   padding: 10px 0px 10px 0px;
+.footer-title {
+  font-size: 24px;
+  padding: 10px 0px 10px 0px;
 }
-#footer-container p{
-   padding: 0px 0px  5px 0px;
-   font-size: 14px;
+#footer-container p {
+  padding: 0px 0px 5px 0px;
+  font-size: 14px;
 }
-#icon i{
+#icon i {
   padding: 7px 10px 0px 0px;
 }
 
-
-
-
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
-  body{
+  body {
     width: 100%;
     margin: 0 auto;
   }
-  nav{
+  nav {
     display: block;
-    padding: 50px 0px 50px 0px ;
+    padding: 50px 0px 50px 0px;
     margin: 0 auto;
     text-align: center;
   }
-  #nav-icon{
+  #nav-icon {
     display: flex;
     margin: 0 auto;
     text-align: center;
   }
- 
-  main{
+
+  main {
     width: 100%;
     margin: 0 auto;
   }
 
-  #header-section{
+  #header-section {
     display: block;
     justify-content: center;
     width: 100%;
   }
-   #header-article{
+  #header-article {
     width: 100%;
     text-align: center;
     justify-content: center;
     padding-right: 0;
     margin: 0 auto;
   }
-  .header-img{
+  .header-img {
     width: 100%;
     margin: 0 auto;
     justify-content: center;
   }
-  hr{
+  hr {
     display: none;
   }
-  #brand-section{
+  #brand-section {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
   }
 
-  #all-product{
+  #all-product {
     display: block;
     margin: 0 auto;
     justify-items: center;
   }
- 
 }
 
 @media only screen and (min-width: 600px) {
   /* For tablet: */
-  #all-product{
+  #all-product {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
 }
-
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
@@ -292,7 +284,3 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-
-
-
