@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.inter {
+  font-family: "Inter", sans-serif;
+}
+/* header start here  */
+header {
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(241, 239, 236); */
+  /* padding: 50px; */
+  /* background-color: rgb(224, 247, 224); */
+}
+.title {
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  background: #e02c6d;
+  border-radius: 41px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 10px;
+}
+main {
+  width: 1100px;
+  background-color: rgb(238, 234, 202);
+  margin: 0 auto;
+}
+/* nav{
+   display: flex;
+}
+#nav-icon ul li{
+   float: right;
+   list-style: none;
+}
+#nav-icon{
+   float: right;
+} */
+
+#header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+#header-article {
+  width: 582px;
+  /* height: 270px; */
+  padding-right: 80px;
+  margin-right: 50px;
+}
+#header-article .title {
+  font-size: 48px;
+  /* margin: 0; */
+}
+#header-article p {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3a3a3a;
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.fa-arrow-right {
+  padding-left: 5px;
+  font-size: 14px;
+}
+#header-section img {
+  width: 350px;
+  height: 350px;
+  background: url("Circle design.svg");
+  background-size: 600px;
+}
+/* brand section start here  */
+#brand-section {
+  width: 1100px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 0; */
+  padding: 25px;
+}
+hr {
+  border: 0.8px solid rgba(128, 128, 128, 0.795);
+  width: 900px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  width: 99.12px;
+  height: 39.61px;
+  padding: 00px 30px 0px 0px;
+}
+
+/* popular collection start here */
+
+#sec2 {
+  /* width: 1047px; */
+  margin: 0 auto;
+  padding: 100px;
+}
+.sec2-title {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3a3a3a;
+}
+#all-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.collection {
+  width: 300px;
+  height: 466px;
+  background: #ffffff;
+  border: 0px solid;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 15px;
+  margin: 0px 30px 30px 0px;
+}
+.product-img {
+  width: 270px;
+  height: 246px;
+}
+.product-title {
+  font-weight: 500;
+  font-size: 28px;
+  padding: 5px 0px 10px 0px;
+  color: #18191f;
+}
+.price {
+  font-size: 24px;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 10.6913px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+  opacity: 0.25;
+}
+.rating {
+  color: #5e6366;
+  font-weight: bold;
+  font-size: 10.6913px;
+}
+.product-details {
+  font-weight: bold;
+  font-size: 14px;
+  color: #787885;
+}
+/* footer start form here */
+footer {
+  height: 239px;
+  background: #0a0826;
+  color: white;
+  text-align: center;
+  padding: 30px 0px  30px  0px;
+}
+.footer-title{
+   font-size: 24px;
+   padding: 10px 0px 10px 0px;
+}
+#footer-container p{
+   padding: 0px 0px  5px 0px;
+
+}
